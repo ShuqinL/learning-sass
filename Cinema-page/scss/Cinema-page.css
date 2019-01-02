@@ -117,12 +117,13 @@ header {
   header footer {
     background-color: #e8820c;
     color: rgba(241, 240, 238, 0.89);
-    column-count: 2; }
+    display: grid; }
     header footer .column {
-      width: 50%; }
-      header footer .column a {
-        width: 50px; }
-        header footer .column a:hover {
-          color: #79747d; }
+      grid-template-columns: 1fr 1fr; }
+      header footer .column a i {
+        width: 60px;
+        color: rgba(241, 240, 238, 0.89); }
+      header footer .column a:hover {
+        color: #79747d; }
 
 /*# sourceMappingURL=Cinema-page.css.map */

@@ -181,11 +181,14 @@ header{
 footer {
     background-color: $orange-color;
     color:$light-grey;
-    column-count: 2;
+    display:grid;
     .column{
-        width:50%;
+        grid-template-columns: 1fr 1fr;
         a{
-            width:50px;
+            i{
+                width:60px;
+                color:$light-grey;
+            }
             &:hover{
                 color:$dark-grey;
             }
