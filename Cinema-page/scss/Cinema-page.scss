@@ -112,30 +112,34 @@ header{
           width:800px;
           height: 300px;
           margin:auto;
-          vertical-align: middle;
+          /*vertical-align: middle;*/
       }
+
+      /* Caption text */
+     .text {
+        color: $light-grey;
+        font-size: 15px;
+        padding: 8px 12px;
+        position: absolute;
+        margin-bottom: 20px;
+        width: 100%;
+        text-align: center;
+     }
+
+      /* Number text (1/3 etc) */
+      .numbertext {
+        color:$light-grey;
+        font-size: 12px;
+        padding: 8px 12px;
+        position: absolute;
+        margin-top: 20px;
+     }
+
+
+
     }
 
 
-/* Caption text */
-    .text {
-      color: $light-grey;
-      font-size: 15px;
-      padding: 8px 12px;
-      position: absolute;
-      margin-bottom: 2px;
-      width: 100%;
-      text-align: center;
-    }
-
-/* Number text (1/3 etc) */
-    .numbertext {
-      color:$light-grey;
-      font-size: 12px;
-      padding: 8px 12px;
-      position: absolute;
-      margin-top: 20px;
-    }
 
 }
 
@@ -157,24 +161,38 @@ header{
 
 /* Fading animation */
 .fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+
+
+footer {
+    background-color: $orange-color;
+    color:$light-grey;
+    column-count: 2;
+    .column{
+        width:50%;
+        a{
+            width:50px;
+            &:hover{
+                color:$dark-grey;
+            }
+        }
+    }
+
 }
-
-@-webkit-keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
-
-@keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
-
-
-
 
 
 }
