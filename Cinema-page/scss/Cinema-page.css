@@ -1,5 +1,8 @@
+* {
+  box-sizing: border-box; }
+
 body {
-  background: url("Cinema-page/img/cinema.jpg");
+  background-image: url("../img/cinema.jpg");
   background-position: bottom;
   background-size: cover; }
   body #container {
@@ -53,12 +56,11 @@ body {
             content: "";
             clear: both;
             display: table; }
-    body #container * {
-      box-sizing: border-box; }
     body #container .slideshow-container {
-      max-width: 900px;
+      max-width: 1000px;
       position: relative;
       margin: auto;
+      margin-top: 30px;
       /* Hide the images by default */
       /* The dots/bullets/indicators */
       /*.active, .dot:hover {
@@ -75,19 +77,19 @@ body {
           margin: auto;
           /*vertical-align: middle;*/ }
         body #container .slideshow-container .mySlides .text {
-          color: rgba(241, 240, 238, 0.89);
+          color: #79747d;
           font-size: 15px;
           padding: 8px 12px;
           position: absolute;
-          margin-bottom: 20px;
+          bottom: 8px;
           width: 100%;
           text-align: center; }
         body #container .slideshow-container .mySlides .numbertext {
-          color: rgba(241, 240, 238, 0.89);
+          color: #79747d;
           font-size: 12px;
           padding: 8px 12px;
           position: absolute;
-          margin-top: 20px; }
+          top: 0; }
       body #container .slideshow-container .dot {
         cursor: pointer;
         height: 15px;
