@@ -1,109 +1,109 @@
 body {
-  background: url(Cinema-page/img/cinema.jpg);
+  background: url("Cinema-page/img/cinema.jpg");
   background-position: bottom;
   background-size: cover; }
-
-#container {
-  background-color: rgba(241, 240, 238, 0.89);
-  color: #79747d;
-  margin-left: 100px;
-  margin-right: 100px;
-  text-align: center; }
-
-header {
-  /* Slideshow container */
-  /* The dots/bullets/indicators */
-  /* Fading animation */ }
-  header h1 {
-    font-size: 80px;
-    font-family: "Seaweed Script", cursive;
-    color: #e8820c; }
-  header nav {
-    background-color: #e8820c;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden; }
-    header nav a {
-      float: left;
-      display: block;
-      text-decoration: none;
-      font-weight: bold;
-      font-family: "Caudex", serif;
-      font-size: 20px;
-      color: rgba(241, 240, 238, 0.89);
-      padding: 10px;
-      text-align: center; }
-      header nav a:hover {
-        background-color: #79747d; }
-    header nav .search-container {
-      float: right; }
-      header nav .search-container form input[type=text] {
-        padding: 5px;
-        border: none;
-        font-size: 15px;
-        font-family: "Caudex", serif;
-        color: #79747d;
-        margin: 7px; }
-      header nav .search-container form button {
-        float: right;
-        padding: 2px;
-        margin-right: 7px;
-        margin-top: 7px;
-        font-size: 18px;
-        cursor: pointer; }
-        header nav .search-container form button:hover {
-          background-color: #79747d; }
-        header nav .search-container form button::after {
-          content: "";
-          clear: both;
-          display: table; }
-  header * {
-    box-sizing: border-box; }
-  header .slideshow-container {
-    max-width: 900px;
-    position: relative;
-    margin: auto;
-    /* Hide the images by default */ }
-    header .slideshow-container .mySlides {
-      display: none;
-      /* Caption text */
-      /* Number text (1/3 etc) */ }
-      header .slideshow-container .mySlides img {
-        width: 800px;
-        height: 300px;
-        margin: auto;
-        /*vertical-align: middle;*/ }
-      header .slideshow-container .mySlides .text {
-        color: rgba(241, 240, 238, 0.89);
-        font-size: 15px;
-        padding: 8px 12px;
-        position: absolute;
-        margin-bottom: 20px;
-        width: 100%;
-        text-align: center; }
-      header .slideshow-container .mySlides .numbertext {
-        color: rgba(241, 240, 238, 0.89);
-        font-size: 12px;
-        padding: 8px 12px;
-        position: absolute;
-        margin-top: 20px; }
-  header .dot {
-    cursor: pointer;
-    height: 15px;
-    width: 15px;
-    margin: 0 2px;
+  body #container {
     background-color: rgba(241, 240, 238, 0.89);
-    border-radius: 50%;
-    display: inline-block;
-    transition: background-color 0.6s ease; }
-  header .active, header .dot:hover {
-    background-color: #79747d; }
-  header .fade {
-    -webkit-animation-name: fade;
-    -webkit-animation-duration: 1.5s;
-    animation-name: fade;
-    animation-duration: 1.5s; }
+    color: #79747d;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: center;
+    /* Slideshow container */ }
+    body #container header h1 {
+      font-size: 80px;
+      font-family: "Seaweed Script", cursive;
+      color: #e8820c; }
+    body #container header nav {
+      background-color: #e8820c;
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden; }
+      body #container header nav a {
+        float: left;
+        display: block;
+        text-decoration: none;
+        font-weight: bold;
+        font-family: "Caudex", serif;
+        font-size: 20px;
+        color: rgba(241, 240, 238, 0.89);
+        padding: 10px;
+        text-align: center; }
+        body #container header nav a:hover {
+          background-color: #79747d; }
+      body #container header nav .search-container {
+        float: right; }
+        body #container header nav .search-container form input[type=text] {
+          padding: 5px;
+          border: none;
+          font-size: 15px;
+          font-family: "Caudex", serif;
+          color: #79747d;
+          margin: 7px; }
+        body #container header nav .search-container form button {
+          float: right;
+          padding: 2px;
+          margin-right: 7px;
+          margin-top: 6px;
+          font-size: 15px;
+          cursor: pointer; }
+          body #container header nav .search-container form button:hover {
+            background-color: #79747d; }
+          body #container header nav .search-container form button::after {
+            content: "";
+            clear: both;
+            display: table; }
+    body #container * {
+      box-sizing: border-box; }
+    body #container .slideshow-container {
+      max-width: 900px;
+      position: relative;
+      margin: auto;
+      /* Hide the images by default */
+      /* The dots/bullets/indicators */
+      /*.active, .dot:hover {
+        background-color: $dark-grey;
+      }*/
+      /* Fading animation */ }
+      body #container .slideshow-container .mySlides {
+        display: none;
+        /* Caption text */
+        /* Number text (1/3 etc) */ }
+        body #container .slideshow-container .mySlides a img {
+          width: 800px;
+          height: 300px;
+          margin: auto;
+          /*vertical-align: middle;*/ }
+        body #container .slideshow-container .mySlides .text {
+          color: rgba(241, 240, 238, 0.89);
+          font-size: 15px;
+          padding: 8px 12px;
+          position: absolute;
+          margin-bottom: 20px;
+          width: 100%;
+          text-align: center; }
+        body #container .slideshow-container .mySlides .numbertext {
+          color: rgba(241, 240, 238, 0.89);
+          font-size: 12px;
+          padding: 8px 12px;
+          position: absolute;
+          margin-top: 20px; }
+      body #container .slideshow-container .dot {
+        cursor: pointer;
+        height: 15px;
+        width: 15px;
+        margin: 0 2px;
+        background-color: rgba(241, 240, 238, 0.89);
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease; }
+        body #container .slideshow-container .dot:hover {
+          background-color: #79747d; }
+      body #container .slideshow-container.fade {
+        -webkit-animation-name: fade;
+        -webkit-animation-duration: 1.5s;
+        animation-name: fade;
+        animation-duration: 1.5s; }
 @-webkit-keyframes fade {
   from {
     opacity: .4; }
@@ -114,16 +114,15 @@ header {
     opacity: .4; }
   to {
     opacity: 1; } }
-  header footer {
-    background-color: #e8820c;
-    color: rgba(241, 240, 238, 0.89);
-    display: grid; }
-    header footer .column {
+    body #container footer {
+      background-color: #e8820c;
+      color: rgba(241, 240, 238, 0.89);
+      display: grid;
       grid-template-columns: 1fr 1fr; }
-      header footer .column a i {
+      body #container footer .column a i {
         width: 60px;
         color: rgba(241, 240, 238, 0.89); }
-      header footer .column a:hover {
-        color: #79747d; }
+        body #container footer .column a i:hover {
+          color: #79747d; }
 
 /*# sourceMappingURL=Cinema-page.css.map */
