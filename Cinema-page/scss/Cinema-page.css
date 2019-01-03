@@ -15,7 +15,8 @@ body {
     body #container header h1 {
       font-size: 80px;
       font-family: "Seaweed Script", cursive;
-      color: #e8820c; }
+      color: #e8820c;
+      padding-top: 30px; }
     body #container header nav {
       background-color: #e8820c;
       list-style-type: none;
